@@ -1,6 +1,6 @@
 const axios = require('axios');
-var qs = require('qs');
-var fs = require('fs');
+const qs = require('qs');
+const fs = require('fs');
 
 // Let's Get the Private key
 let keypath = Runtime.getAssets()['/github.key'].path;
@@ -51,7 +51,7 @@ exports.handler = function(context, event, callback) {
       'Language': 'en-us' 
     });
 
-    var autopilot_config = {
+    const autopilot_config = {
       method: 'post',
       url: autopilot,
       auth: {
