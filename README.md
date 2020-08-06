@@ -2,7 +2,7 @@
 
 Basic GitHub bot using Twilio Autopilot and Octokit
 
-![Screenshot](/ScreenShot.png)
+![Screenshot](/Screenshot.png)
 
 ## Setup
 
