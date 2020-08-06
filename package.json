@@ -1,0 +1,25 @@
+{
+  "name": "github-autopilot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "devDependencies": {
+    "twilio-run": "^2.0.0"
+  },
+  "engines": {
+    "node": "10.17.0"
+  },
+  "dependencies": {
+    "@octokit/app": "^4.2.1",
+    "@octokit/auth-app": "^2.4.12",
+    "@octokit/request": "^5.4.7",
+    "@octokit/rest": "^18.0.3",
+    "axios": "^0.19.2",
+    "form-data": "^3.0.0",
+    "qs": "^6.9.4"
+  }
+}
