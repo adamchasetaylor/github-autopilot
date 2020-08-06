@@ -29,10 +29,7 @@ exports.handler = function(context, event, callback) {
 
   const { action } = event;
 
-  if(action == "opened") {
-    return callback(null);
-  }
-  else if(action == "created"){
+  if(action == "created" || action == "opened"){
     const { body } = event.comment;
     const { login, type } = event.comment.user;
 
@@ -77,6 +74,9 @@ exports.handler = function(context, event, callback) {
       })
 
     })
+  }
+  else{
+    return callback(null);
   }
 
 }
