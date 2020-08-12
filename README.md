@@ -14,6 +14,6 @@ Add your private key for github in the assets folder as "github.private.key".
 
 twilio serverless:deploy
 
-Update your [github app configuration](https://github.com/settings/apps/) to subscribe for webhooks to the bot for issues and issue comments.
+Update your [github app configuration](https://github.com/settings/apps/) to subscribe for assistant webhook (assistant.js) to the bot for issues and issue comments.
 
 Set the Webhook URL to the "assistant" function here.
